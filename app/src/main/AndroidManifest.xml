@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finalproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalProject"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activities.SearchActivity"></activity>
+        <activity android:name=".activities.MostSize" />
+        <activity android:name=".activities.MostRating" />
+        <activity android:name=".activities.MostInstalls" />
+        <activity android:name=".activities.MostReviews" />
+        <activity android:name=".activities.AccountInfoActivity" />
+        <activity android:name=".activities.FavoritesActivity" />
+        <activity android:name=".activities.ReviewActivity" />
+        <activity android:name=".activities.AppTypeActivity" />
+        <activity android:name=".activities.ContentRatingActivity" />
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.CategoryOrAllActivity" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".activities.MainMenuActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity android:name=".activities.LoginActivity" />
+    </application>
+
+</manifest>

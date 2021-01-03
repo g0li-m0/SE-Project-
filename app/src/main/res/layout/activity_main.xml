@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images5"
+    tools:context=".activities.MainActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/round_edit_text"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/round_edit_text"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:hint="password"
+        android:inputType="numberPassword"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/round_edit_text"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signup"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_alignTop="@id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/round_edit_text"
+        android:text="sign up"
+        android:textSize="25dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/account"
+        android:layout_width="178dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="90dp"
+        android:text=" Already have an account ?"
+        android:textSize="15dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textViewLink"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="560dp"
+        android:text="Log in"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>
