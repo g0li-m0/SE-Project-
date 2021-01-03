@@ -39,6 +39,7 @@
 1.	Front-End Development:
 
 •	Java
+
 •	Android native
 
 2.	Back-End Development
